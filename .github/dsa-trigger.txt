@@ -1,1 +1,5 @@
-IyBNaWxvIGZhbGxiYWNrIHRyaWdnZXIgZmlsZQojIFRoZSB3b3JrZmxvdyAwMC1kYWlseS1hbmFseXNpcy55bWwgbGlzdGVucyBmb3IgcHVzaGVzIHRvIHRoaXMgZmlsZS4KIyBNaWxvJ3MgMTg6NDAgd2Vla2RheSBjaGVjayB1cGRhdGVzIHRoaXMgZmlsZSB2aWEgdGhlIEdpdEh1YiBjb25uZWN0b3IgdG8gdHJpZ2dlciBhbiBhbmFseXNpcyBydW4gd2hlbiB0aGUgc2NoZWR1bGVkIHJ1biBpcyBtaXNzaW5nLgpjcmVhdGVkOiAyMDI2LTExLTE4IHNldHVwCnRyaWdnZXI6IDIwMjYtMTEtMjAgMTg6NDEgYnkgbWlsby1mYWxsYmFjawo=
+# Milo fallback trigger file
+# The workflow 00-daily-analysis.yml listens for pushes to this file.
+# Milo's 18:40 weekday check updates this file via the GitHub connector to trigger an analysis run when the scheduled run is missing.
+created: 2026-11-18 setup
+trigger: 2026-11-23 18:42 by milo-fallback
