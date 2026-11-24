@@ -2,4 +2,4 @@
 # The workflow 00-daily-analysis.yml listens for pushes to this file.
 # Milo's 18:40 weekday check updates this file via the GitHub connector to trigger an analysis run when the scheduled run is missing.
 created: 2026-11-18 setup
-trigger: 2026-11-23 18:42 by milo-fallback
+trigger: 2026-11-24 18:41 by milo-fallback
